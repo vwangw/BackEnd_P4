@@ -1,3 +1,5 @@
+//Practica 4 por Lucía Camiña y Vicente Wang
+
 import {MongoClient, ObjectId} from "mongodb";
 import { CartModel, OrderModel, ProductModel, UserModel } from "./types.ts";
 import { calculateOrderTotalAndPrepareProducts, fromModelToProduct, updateProductStock } from "./utils.ts";
